@@ -19,4 +19,7 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
+  <ItemGroup>
+    <None Remove=".gitignore" />
+  </ItemGroup>
 </Project>

@@ -6,6 +6,11 @@ namespace CSharpStudy
         public TestStringClass()
         {
         }
+        public void TestStringMethod()
+        {
+            string str = "Hello world!";
+            Console.WriteLine(str);
+        }
     }
 }
 

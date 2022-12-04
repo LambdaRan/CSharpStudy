@@ -1,10 +1,13 @@
 ﻿using System;
 namespace CSharpStudy
 {
-    public class TestPathDirectoryClass
+    public static class TestPathDirectoryClass
     {
-        public TestPathDirectoryClass()
+        public static void TestPathDirectoryMethod()
         {
+            // Path
+            string path = "path";
+            int num = path!.Length;
         }
     }
 }
